@@ -23,9 +23,9 @@ print("Login SB GHD SUCCESS BANG REY")
 
 poll = LinePoll(cl)
 call = cl
-creator = ["u411e5942b009ef65f26471d44843d9e2"]
-owner = ["u411e5942b009ef65f26471d44843d9e2"]
-admin = ["u411e5942b009ef65f26471d44843d9e2"]
+creator = ["u13de2191062402d1d4e8347815ca07d8"]
+owner = ["u13de2191062402d1d4e8347815ca07d8"]
+admin = ["u13de2191062402d1d4e8347815ca07d8"]
 mid = cl.getProfile().mid
 Bots = [mid]
 #==[tata letak sc ghd]==#
