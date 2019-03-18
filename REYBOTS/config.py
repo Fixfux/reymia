@@ -27,8 +27,8 @@ class Config(object):
         'LINE_BUSINESS': '1459630796'
     }
 
-    APP_TYPE    = ApplicationType._VALUES_TO_NAMES[96]
-    APP_VER     = '5.8.0'
+    APP_TYPE    = ApplicationType._VALUES_TO_NAMES[368]
+    APP_VER     = '8.4.1'
     CARRIER     = '51089, 1-0'
     SYSTEM_NAME = 'IOSPAD'
     SYSTEM_VER  = '8.22.17'
