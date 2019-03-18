@@ -13,9 +13,9 @@ import youtube_dl
 #rey_sᴇʙᴀsᴛɪᴀɴ_ɢʜᴅ
 #jangan ᴜʙᴀʜ ᴍɪᴅ ᴄʀᴇᴀᴛᴏʀ
 #remake ʙʏ: ʀᴇʏ_ɢʜᴅ
-cl = LineClient() #Login via qr
+#cl = LineClient() #Login via qr
 #cl = LineClient("","") #login via email
-#cl = LineClient(authToken='') #login via token
+cl = LineClient(authToken='ED8jK6LWXqF4uHgSocCe.BfPZGSjbObr9xD6/16N/xG.gWJvWAFro6zUo468xvN5O1Vsxd9MOyoejrG9t9KmMXU=') #login via token
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -23,9 +23,9 @@ print("Login SB GHD SUCCESS BANG REY")
 
 poll = LinePoll(cl)
 call = cl
-creator = ["u411e5942b009ef65f26471d44843d9e2"]
-owner = ["u411e5942b009ef65f26471d44843d9e2"]
-admin = ["u411e5942b009ef65f26471d44843d9e2"]
+creator = ["u13de2191062402d1d4e8347815ca07d8"]
+owner = ["u13de2191062402d1d4e8347815ca07d8"]
+admin = ["u13de2191062402d1d4e8347815ca07d8"]
 mid = cl.getProfile().mid
 Bots = [mid]
 #==[tata letak sc ghd]==#
